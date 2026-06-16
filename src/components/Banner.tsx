@@ -32,7 +32,7 @@ export default function Banner() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-gray-500 text-sm md:text-base leading-relaxed md:leading-loose max-w-3xl mx-auto"
         >
-          At Monkey Coffee Coffee, we believe every cup is an invitation to slow down and savor life's simple pleasures. Whether you're meeting a friend, working on your next big idea, or simply enjoying a quiet moment alone, our doors are open to those who appreciate the art of a well-crafted brew and the warmth of genuine community.
+          At Monkey Coffee, we believe every cup is an invitation to slow down and savor life's simple pleasures. Whether you're meeting a friend, working on your next big idea, or simply enjoying a quiet moment alone, our doors are open to those who appreciate the art of a well-crafted brew and the warmth of genuine community.
         </motion.p>
       </div>
     </section>

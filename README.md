@@ -1,6 +1,6 @@
-﻿# Stanley Coffee — Frontend Internship Challenge
+# Monkey Coffee — Frontend Internship Challenge
 
-This repository contains the implementation of the **Stanley Coffee** landing page, sliced and developed as a frontend engineering challenge for **PT Daya Rekadigital Indonesia**.
+This repository contains the implementation of the **Monkey Coffee** landing page, sliced and developed as a frontend engineering challenge for **PT Daya Rekadigital Indonesia**.
 
 ## 🚀 Technologies Used
 
@@ -58,7 +58,7 @@ The project layout follows the official Next.js App Router guidelines:
 │       ├── hero_bg.png         ← Cozy dark cafe interior background
 │       ├── menu_*.png          ← Custom high-definition product shots
 │       ├── gallery_*.png       ← Cafe environment snaps
-│       └── neon_sign.png       ← Custom glowing "Stanley Coffee" sign
+│       └── neon_sign.png       ← Custom glowing "Monkey Coffee" sign
 └── src/
     ├── app/
     │   ├── globals.css         ← Tailwind v4 styling + scrollbar modifications
@@ -107,7 +107,7 @@ To resolve this issue, we decoupled the initial render from the local storage lo
    ```typescript
    useEffect(() => {
      setMounted(true);
-     const savedCart = localStorage.getItem("stanley_cart");
+     const savedCart = localStorage.getItem("monkey_cart");
      if (savedCart) {
        setCartItems(JSON.parse(savedCart));
      }
