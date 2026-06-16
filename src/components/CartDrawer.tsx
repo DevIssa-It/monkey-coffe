@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React from "react";
 import { useCart } from "../context/CartContext";
@@ -150,7 +150,12 @@ export default function CartDrawer() {
                   Taxes and shipping calculated at checkout.
                 </p>
                 <button
-                  onClick={() => alert("Checkout function mock. Thank you for your order!")}
+                  onClick={() => {
+                    setIsCartOpen(false);
+                    document
+                      .getElementById("contact")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }}
                   className="w-full rounded-full bg-[#C47D4F] hover:bg-[#A96B43] text-[#FDFBF7] py-3 text-sm font-bold tracking-wide uppercase transition-colors shadow-lg shadow-[#C47D4F]/25"
                 >
                   Proceed to Checkout
